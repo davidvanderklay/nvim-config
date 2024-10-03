@@ -1,12 +1,13 @@
 return {
   -- add gruvbox
-  { "rose-pine/neovim" },
+  { "ellisonleao/gruvbox.nvim" },
+  -- { "sainnhe/gruvbox-material" },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "gruvbox",
     },
   },
 }
